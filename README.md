@@ -7,7 +7,7 @@ main.c and the Makefile to implement a multi-threaded version of this ray-tracin
 creates an image which is always the same as baseline.ppm (provided in the zip file)
 regardless of the number of threads used (as expected).
 
-To run, unzip Ray_Trace.zip. On the command line (perhaps bash), go to the srt folder gotten after unzipping Ray_trace. Run
+To run, unzip Ray_Trace.zip. On the terminal (perhaps with bash), go to the srt folder gotten after unzipping Ray_trace. Run
 "make clean check". This creates the srt executable and creates 4 images, each made using 1, 2, 4 and 8 threads respectively.
 It also prints the amount of time taken to execute the program.
 The images will be labelled 1-test.ppm, 2-test.ppm, and so on. To create an image using a particular number of threads, 
